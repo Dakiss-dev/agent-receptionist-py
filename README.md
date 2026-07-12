@@ -4,7 +4,7 @@ Minimal **Python agent receptionist**: Claude tool-use loop over a booking calen
 
 This is the non-voice core of the receptionists I ship on Twilio + ElevenLabs + Claude. Same loop: check availability, book a slot, answer in the caller's language. Swap the CLI for a media stream and you have the production shape.
 
-Built as a 1-day portfolio demo for the [Contract Engine](https://github.com/Dakiss-dev) Phase 0. Not a framework. ~150 lines.
+Built in one day as a portfolio exhibit. Not a framework. ~150 lines.
 
 ## What it shows
 
