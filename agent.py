@@ -1,7 +1,7 @@
 """A minimal receptionist agent: Claude + tool use over the booking tools.
 
 Usage:
-    export ANTHROPIC_API_KEY=sk-ant-...
+    export ANTHROPIC_API_KEY=<your-key>
     python agent.py "Bonjour, je voudrais un rendez-vous le 15 juillet"
 
 The agent answers in the caller's language, checks real availability, and

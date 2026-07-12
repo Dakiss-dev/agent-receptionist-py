@@ -19,7 +19,7 @@ Built as a 1-day portfolio demo for the [Contract Engine](https://github.com/Dak
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-export ANTHROPIC_API_KEY=sk-ant...   # or ANTHROPIC_AUTH_TOKEN / ANTHROPIC_TOKEN
+export ANTHROPIC_API_KEY=<your-key>   # or ANTHROPIC_AUTH_TOKEN / ANTHROPIC_TOKEN
 python agent.py "Bonjour, je voudrais un rendez-vous le 15 juillet"
 python agent.py "Hi, what times are open on July 16?"
 ```
