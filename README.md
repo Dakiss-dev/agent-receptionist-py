@@ -2,7 +2,7 @@
 
 Minimal **Python agent receptionist**: Claude tool-use loop over a booking calendar.
 
-This is the non-voice core of the receptionists I ship on Twilio + ElevenLabs + Claude. Same loop: check availability, book a slot, answer in the caller's language. Swap the CLI for a media stream and you have the production shape.
+This is the non-voice core of a voice receptionist on Twilio + ElevenLabs + Claude. Same loop: check availability, book a slot, answer in the caller's language. Swap the CLI for a media stream and you have the voice shape.
 
 Built in one day as a portfolio exhibit. Not a framework. ~150 lines.
 
@@ -43,11 +43,11 @@ requirements.txt      # anthropic, pytest
 
 ## Related
 
-- [VoiceForge](https://github.com/Dakiss-dev/voiceforge) - production voice-agent framework (TypeScript, provider-agnostic)
+- [VoiceForge](https://github.com/Dakiss-dev/voiceforge) - voice-agent framework (TypeScript, provider-agnostic)
 - [nafolo](https://github.com/Dakiss-dev/nafolo) - Telegram-to-Claude-Code agent harness with persistent memory
 
 ## Status
 
-Shipped. Working demo with tests. Not maintained as a product. Portfolio exhibit for AI Agent Engineer contract work.
+Shipped. Working demo with tests. Not maintained as a product. Portfolio exhibit.
 
 Author: [Ali Dakissaga](https://github.com/Dakiss-dev)
